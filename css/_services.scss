@@ -1,0 +1,67 @@
+.background {
+  background-color: $bgLight;
+}
+.services {
+  @extend %section-center;
+  .services-title {
+    @extend %title;
+    text-align: center;
+  }
+  .service-cards {
+    @extend %clear;
+    .service-info {
+      p {
+        color: $green-2;
+        width: 16rem;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+      }
+    }
+    .service-card {
+      background: white;
+      margin: 2rem 1rem;
+      border-radius: $radius;
+
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: $transition;
+
+      &:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        transform: scale(1.02);
+      }
+
+      img {
+        border-top-left-radius: $radius;
+        border-top-right-radius: $radius;
+        height: 17rem;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+  .btn {
+    @extend %btn;
+    &:hover {
+      @extend %btnHover;
+    }
+  }
+  .service-info{
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .service-img-container{
+    position: relative;
+    .service-icon {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        font-size: 1.75rem;
+        color: $primary;
+        transform: translate(-50%, 50%);
+        background: $primaryLight;
+        padding: 0.5rem 0.7rem 0.1rem 0.7rem;
+        border-radius: 50%;
+        border: 0.375rem solid white;
+    }
+  }
+}
