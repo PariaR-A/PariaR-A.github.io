@@ -103,6 +103,12 @@
     width: 50%;
   }
 }
+@media screen and (min-width: 768px) {
+  .navbar {
+    width: 30vw;
+    max-width: 20rem;
+  }
+}
 .contact .btn, .services .btn, .products .btn, .about .btn, .banner .btn {
   background: #cb997e;
   padding: 0.5rem 1rem;
@@ -419,6 +425,71 @@ header {
 .footer .primary-color {
   color: #cb997e;
   font-size: 1.3rem;
+}
+
+.nav-btn {
+  font-size: 1.5rem;
+  color: #cb997e;
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  z-index: 1;
+  cursor: pointer;
+  animation: bounce 3s ease infinite;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #f9eadf;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  box-shadow: 2px 0 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s linear;
+  transform: translateX(100%);
+}
+
+.showNav {
+  transform: translate(0);
+}
+
+.navbar-header {
+  text-align: left;
+}
+
+.nav-close {
+  font-size: 2.5rem;
+  color: #ddbea9;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.nav-close:hover {
+  color: #cb997e;
+}
+
+.nav-items {
+  list-style-type: none;
+  direction: rtl;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  color: #a5a58d;
+  transition: all 0.3s linear;
+}
+.nav-link i {
+  font-size: 1.4rem;
+  margin-left: 0.3rem;
+}
+.nav-link:hover {
+  background: #ddbea9;
+  border-right: 0.25rem solid #cb997e;
+  padding-right: 1.5rem;
+  color: #cb997e;
 }
 
 * {
