@@ -1,0 +1,67 @@
+.contact {
+  @extend %section-center;
+  @extend %clear;
+  .btn {
+    @extend %btn;
+    border: $primaryLight;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    font-family: var(--ff-primary);
+    &:hover {
+      @extend %btnHover;
+    }
+  }
+
+  article {
+    margin: 1rem 0;
+  }
+  &-item {
+    margin-bottom: 1.7rem;
+  }
+
+  &-title {
+    color: $primary;
+    font-weight: 400;
+    direction: rtl;
+  }
+  &-text {
+    font-size: 1.1rem;
+  }
+
+  &-form {
+    background: $bgLight;
+    border-radius: $radius;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: $transition;
+    max-width: 35rem;
+    &:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+    h3 {
+      color: var(--clr-grey-5);
+      padding-top: 1.25rem;
+    }
+  }
+
+  .form-group {
+    padding: 1rem 1.5rem;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    padding: 0.75rem 1rem;
+    border: none;
+    background: white;
+    border-radius: $radius;
+    direction: rtl;
+    &::placeholder {
+      font-family: $ffVazir;
+      color: $green-1;
+    }
+  }
+}
