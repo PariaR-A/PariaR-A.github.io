@@ -5,10 +5,10 @@ const navClose = document.getElementById("nav-close");
 
 // show nav
 navBtn.addEventListener("click", () => {
-  navbar.classList.add("showNav");
+  navbar.classList.toggle("showNav");
 });
 
 // close nav
 navClose.addEventListener("click", () => {
-  navbar.classList.remove("showNav");
+  navbar.classList.toggle("showNav");
 });
