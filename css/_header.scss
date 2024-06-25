@@ -1,5 +1,6 @@
-@import 'variable';
+
 header {
+
     background: linear-gradient(#000000a9, #0000006a),
       url(../image/headerPic.jpg) center/cover no-repeat fixed;
     height: 100vh;
@@ -16,10 +17,12 @@ header {
     h1 {
       color: $primary;
       margin-bottom: 2rem;
+      animation: slideDown 2s  1;
     }
     h2 {
       color: white;
       margin-bottom: 3rem;
+      animation: slideUp 2s  1;
     }
     .btn {
       @extend %btn;
@@ -27,7 +30,7 @@ header {
       outline: 0.125rem solid $primary;
       outline-offset: 0.25rem;
       padding: 0.75rem 1.25rem;
-  
+
       &:hover {
         @extend %btnHover;
       }
