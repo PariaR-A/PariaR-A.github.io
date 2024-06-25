@@ -1,0 +1,39 @@
+@import 'variable';
+header {
+    background: linear-gradient(#000000a9, #0000006a),
+      url(../image/headerPic.jpg) center/cover no-repeat fixed;
+    height: 100vh;
+    position: relative;
+  }
+  .banner {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+    text-align: center;
+    h1 {
+      color: $primary;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: white;
+      margin-bottom: 3rem;
+    }
+    .btn {
+      @extend %btn;
+      font-size: 1.25rem;
+      outline: 0.125rem solid $primary;
+      outline-offset: 0.25rem;
+      padding: 0.75rem 1.25rem;
+  
+      &:hover {
+        @extend %btnHover;
+      }
+    }
+  }
+  .content-divider {
+    height: 0.5rem;
+    background: linear-gradient(to left, $primary, $green-3, $primary);
+  }

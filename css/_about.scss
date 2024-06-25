@@ -1,0 +1,46 @@
+@import "variable";
+.about {
+    .centeralize{
+        @extend %clear;
+        @extend %section-center;
+    }
+  background: $bgLight;
+  .btn {
+    @extend %btn;
+    &:hover {
+      @extend %btnHover;
+    }
+    display: inline-block;
+    margin-top:1.5rem ;
+  }
+  &-image {
+    padding: 2rem 0;
+    margin-left:1rem;
+    &-container {
+        background-color: $primaryLight;
+      max-width: 30rem;
+      border: 0.3rem solid $primary;
+      border-radius: $radius;
+      overflow: hidden;
+      &:hover img{
+          transform: scale(1.2);
+          opacity: 0.5;
+      }
+      img{
+        transition: $transition;
+      }
+
+    }
+  }
+  &-info{
+    padding: 2rem 0;
+    margin-right: 1rem;
+  }
+  &-title{
+    @extend %title;
+  }
+  &-text{
+    color: $green-2;
+  }
+
+}

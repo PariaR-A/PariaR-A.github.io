@@ -1,0 +1,47 @@
+//importing so we could use bootstrap icons
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+//colors well use
+@import "variable";
+//impporting font
+@import "font";
+//media queries
+@import "./media";
+//setting defualt settings
+//importing header styles
+@import 'header';
+//importing feature styles
+@import 'feature';
+//importing about styles
+@import 'about';
+
+@import 'products';
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $ffVazir;
+  background-color: white;
+  color: $green-1;
+  text-align: right;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h4{
+  font-size: 1rem;
+}
+img{
+  display: block;
+  width: 100%;
+}
+
+
