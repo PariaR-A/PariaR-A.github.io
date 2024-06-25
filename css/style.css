@@ -18,7 +18,7 @@
   display: block;
 }
 
-.contact, .services, .products, .about .centeralize {
+.footer .social, .contact, .services, .products, .about .centeralize {
   padding: 4rem 0;
   width: 85vw;
   max-width: 100vw;
@@ -60,7 +60,7 @@
   }
 }
 @media screen and (min-width: 992px) {
-  .contact, .services, .products, .about .centeralize {
+  .footer .social, .contact, .services, .products, .about .centeralize {
     width: 95vw;
   }
   .about-image {
@@ -122,7 +122,7 @@
   display: block;
 }
 
-.contact, .services, .products, .about .centeralize {
+.footer .social, .contact, .services, .products, .about .centeralize {
   padding: 4rem 0;
   width: 85vw;
   max-width: 100vw;
@@ -217,7 +217,7 @@ header {
   display: block;
 }
 
-.contact, .services, .products, .about .centeralize {
+.footer .social, .contact, .services, .products, .about .centeralize {
   padding: 4rem 0;
   width: 85vw;
   max-width: 100vw;
@@ -394,6 +394,31 @@ header {
 .contact .form-control::placeholder {
   font-family: "vazir", sans-serif;
   color: #6b705c;
+}
+
+.footer {
+  background: #b7b7a4;
+  text-align: center;
+  color: white;
+}
+.footer .social-icon {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  transition: all 0.3s linear;
+}
+.footer .social-icon:hover {
+  color: #cb997e;
+}
+.footer-text {
+  font-size: 1.1rem;
+  direction: rtl;
+}
+.footer .primary-color {
+  color: #cb997e;
+  font-size: 1.3rem;
 }
 
 * {

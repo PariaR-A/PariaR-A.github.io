@@ -1,0 +1,28 @@
+.footer {
+  .social {
+    @extend %section-center;
+    &-icon {
+      color: white;
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+      transition: $transition;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  &-text {
+    font-size: 1.1rem;
+    direction: rtl;
+  }
+  .primary-color {
+    color: $primary;
+    font-size: 1.3rem;
+  }
+
+  background: $green-3;
+  text-align: center;
+  color: white;
+}
