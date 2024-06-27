@@ -1,0 +1,19 @@
+$primaryDark : #1d3557 ;
+$primary : #457b9d ;
+$primaryLight : #a8dadc;
+$bgColor : #edf2f4;
+$Error : #ef233c;
+%input{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background: $bgColor;
+    border-radius: 0.5rem;
+    transition: all 0.7s;
+    margin: 1rem;
+    color: $primaryDark;
+    &:hover,&:focus{
+        background: white;
+        border: solid $primaryDark;
+    }
+
+}
