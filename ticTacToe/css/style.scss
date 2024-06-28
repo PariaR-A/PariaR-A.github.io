@@ -1,0 +1,98 @@
+@import "variable";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 10px;
+  background: $papaya-whip;
+
+  margin: 0 auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4%;
+}
+
+.cell {
+  padding: 0.5rem;
+  border-radius: 6%;
+  cursor: pointer;
+  background-color: $air-superiority-blue;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border: 2px solid $barn-red;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  transition: all 1s;
+  &:hover {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  }
+}
+
+#info {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 6%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border: 2px solid $barn-red;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: $air-superiority-blue-hover;
+}
+
+.O {
+  background-color: $fire-brick;
+  &::after {
+    content: "O";
+  }
+  &:hover {
+    background-color: $indian-red;
+  }
+}
+.X {
+  background-color: $prussian-blue;
+  &::after {
+    content: "X";
+  }
+  &:hover {
+    background-color: $payne-grey;
+  }
+}
+
+button {
+  border-radius: 6%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #d8345f;
+  color: white;
+
+  text-align: center;
+  padding: 10px;
+
+  width: 100%;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+  margin-top: 5px;
+  transition: all 1s;
+  &:hover {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  }
+}
