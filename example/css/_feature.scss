@@ -1,0 +1,33 @@
+
+.features {
+@extend %clear;
+  //background: $bgLight;
+  .feature {
+    height: 270px;
+    text-align: center;
+    padding: 2.5rem 0;
+    transition: $transition;
+    &:hover {
+      background: $bgLight;
+      box-shadow: 0 2px $primary;
+      .icon {
+        transform: translateY(-5px);
+      }
+    }
+  }
+  .icon {
+    font-size: 2rem;
+    color: $primary;
+    margin-bottom: 1.25rem;
+    display: inline-block;
+    transition: $transition;
+  }
+  .title {
+    margin-bottom: 1rem;
+  }
+  .text {
+    color: $green-2;
+    margin: 0 auto;
+    max-width: 17rem;
+  }
+}
