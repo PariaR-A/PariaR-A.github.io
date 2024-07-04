@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Almendra Display
+- Font Author: Copyright (c) 2011-2012, Ana Sanfelippo (anasanfe@gmail.com), with Reserved Font Name 'Almendra'
+- Font Source: https://fonts.gstatic.com/s/almendradisplay/v31/0FlPVOGWl1Sb4O3tETtADHRRlZhzXS_eTyer338.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
