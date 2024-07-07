@@ -19,7 +19,7 @@
 
 @each $name, $color in $colors {
   .bg-#{$name} {
-    background-color: $color;
+    background: $color;
   }
   .text-#{$name} {
     color: $color;
@@ -34,4 +34,12 @@
       color: $color;
     }
   }
+}
+
+
+@each $name, $gradient in $gradients {
+  .bg-#{$name} {
+    background: $gradient;
+  }
+
 }

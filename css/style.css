@@ -1,6 +1,8 @@
+/* SCSS HEX */
+/* SCSS HEX */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 header .icon a:hover {
-  color: #b298dc;
+  color: #e9c46a;
 }
 
 * {
@@ -11,7 +13,7 @@ header .icon a:hover {
   background-color: white;
 }
 .fixed-top a {
-  color: #8b48c5;
+  color: #264653;
 }
 
 .transition1 {
@@ -19,11 +21,11 @@ header .icon a:hover {
 }
 
 .bg-primary1 {
-  background-color: #8b48c5;
+  background: #264653;
 }
 
 .text-primary1 {
-  color: #8b48c5;
+  color: #264653;
 }
 .text-primary1 a,
 .text-primary1 p,
@@ -33,15 +35,15 @@ header .icon a:hover {
 .text-primary1 h4,
 .text-primary1 h5,
 .text-primary1 h6 {
-  color: #8b48c5;
+  color: #264653;
 }
 
 .bg-primary2 {
-  background-color: #a663cc;
+  background: #287271;
 }
 
 .text-primary2 {
-  color: #a663cc;
+  color: #287271;
 }
 .text-primary2 a,
 .text-primary2 p,
@@ -51,15 +53,15 @@ header .icon a:hover {
 .text-primary2 h4,
 .text-primary2 h5,
 .text-primary2 h6 {
-  color: #a663cc;
+  color: #287271;
 }
 
 .bg-parimary3 {
-  background-color: #a971d0;
+  background: #2a9d8f;
 }
 
 .text-parimary3 {
-  color: #a971d0;
+  color: #2a9d8f;
 }
 .text-parimary3 a,
 .text-parimary3 p,
@@ -69,15 +71,15 @@ header .icon a:hover {
 .text-parimary3 h4,
 .text-parimary3 h5,
 .text-parimary3 h6 {
-  color: #a971d0;
+  color: #2a9d8f;
 }
 
 .bg-parimary4 {
-  background-color: #ac7ed4;
+  background: #8ab17d;
 }
 
 .text-parimary4 {
-  color: #ac7ed4;
+  color: #8ab17d;
 }
 .text-parimary4 a,
 .text-parimary4 p,
@@ -87,15 +89,15 @@ header .icon a:hover {
 .text-parimary4 h4,
 .text-parimary4 h5,
 .text-parimary4 h6 {
-  color: #ac7ed4;
+  color: #8ab17d;
 }
 
 .bg-parimary5 {
-  background-color: #b298dc;
+  background: #e9c46a;
 }
 
 .text-parimary5 {
-  color: #b298dc;
+  color: #e9c46a;
 }
 .text-parimary5 a,
 .text-parimary5 p,
@@ -105,15 +107,15 @@ header .icon a:hover {
 .text-parimary5 h4,
 .text-parimary5 h5,
 .text-parimary5 h6 {
-  color: #b298dc;
+  color: #e9c46a;
 }
 
 .bg-bg1 {
-  background-color: #b8d0eb;
+  background: #f4a261;
 }
 
 .text-bg1 {
-  color: #b8d0eb;
+  color: #f4a261;
 }
 .text-bg1 a,
 .text-bg1 p,
@@ -123,15 +125,15 @@ header .icon a:hover {
 .text-bg1 h4,
 .text-bg1 h5,
 .text-bg1 h6 {
-  color: #b8d0eb;
+  color: #f4a261;
 }
 
 .bg-bg2 {
-  background-color: #b9e5f2;
+  background: #ee8959;
 }
 
 .text-bg2 {
-  color: #b9e5f2;
+  color: #ee8959;
 }
 .text-bg2 a,
 .text-bg2 p,
@@ -141,15 +143,15 @@ header .icon a:hover {
 .text-bg2 h4,
 .text-bg2 h5,
 .text-bg2 h6 {
-  color: #b9e5f2;
+  color: #ee8959;
 }
 
 .bg-bg3 {
-  background-color: #b9faf8;
+  background: #e76f51;
 }
 
 .text-bg3 {
-  color: #b9faf8;
+  color: #e76f51;
 }
 .text-bg3 a,
 .text-bg3 p,
@@ -159,5 +161,43 @@ header .icon a:hover {
 .text-bg3 h4,
 .text-bg3 h5,
 .text-bg3 h6 {
-  color: #b9faf8;
+  color: #e76f51;
 }
+
+.bg-gradient-top {
+  background: linear-gradient(0deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+.bg-gradient-right {
+  background: linear-gradient(90deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+.bg-gradient-bottom {
+  background: linear-gradient(180deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+.bg-gradient-left {
+  background: linear-gradient(270deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+.bg-gradient-top-right {
+  background: linear-gradient(45deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+.bg-gradient-bottom-right {
+  background: linear-gradient(135deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+.bg-gradient-top-left {
+  background: linear-gradient(225deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+.bg-gradient-bottom-left {
+  background: linear-gradient(315deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+.bg-gradient-radial {
+  background: radial-gradient(#264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+}
+
+/*# sourceMappingURL=style.css.map */
