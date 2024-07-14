@@ -1,5 +1,4 @@
-/* SCSS HEX */
-/* SCSS HEX */
+
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 header .icon a:hover {
   color: #e9c46a;
@@ -165,39 +164,128 @@ header .icon a:hover {
 }
 
 .bg-gradient-top {
-  background: linear-gradient(0deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: linear-gradient(
+    0deg,
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 .bg-gradient-right {
-  background: linear-gradient(90deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: linear-gradient(
+    90deg,
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 .bg-gradient-bottom {
-  background: linear-gradient(180deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: linear-gradient(
+    180deg,
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 .bg-gradient-left {
-  background: linear-gradient(270deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: linear-gradient(
+    270deg,
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 .bg-gradient-top-right {
-  background: linear-gradient(45deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: linear-gradient(
+    45deg,
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 .bg-gradient-bottom-right {
-  background: linear-gradient(135deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: linear-gradient(
+    135deg,
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 .bg-gradient-top-left {
-  background: linear-gradient(225deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: linear-gradient(
+    225deg,
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 .bg-gradient-bottom-left {
-  background: linear-gradient(315deg, #264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: linear-gradient(
+    315deg,
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 .bg-gradient-radial {
-  background: radial-gradient(#264653, #287271, #2a9d8f, #8ab17d, #e9c46a, #f4a261, #ee8959, #e76f51);
+  background: radial-gradient(
+    #264653,
+    #287271,
+    #2a9d8f,
+    #8ab17d,
+    #e9c46a,
+    #f4a261,
+    #ee8959,
+    #e76f51
+  );
 }
 
 /*# sourceMappingURL=style.css.map */

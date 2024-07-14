@@ -36,10 +36,8 @@
   }
 }
 
-
 @each $name, $gradient in $gradients {
   .bg-#{$name} {
     background: $gradient;
   }
-
 }
